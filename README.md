@@ -1,1 +1,1 @@
-# scssTest
+# scss-test
