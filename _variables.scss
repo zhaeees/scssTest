@@ -1,0 +1,51 @@
+/* ==========================  
+  색상 
+==========================  */
+$color-black: #2a2a2a; // 메인, 강조
+$color-dark: #333; // 푸터
+$color-gray: #555; // 보조텍스트
+$color-gray-light: #a0a0a0; // 비활성화 텍스트 
+$color-border: #e0e0e0; // 테두리  
+$color-bg-light: rgb(233, 232, 240);
+$color-white: #fdfdfd;
+$color-point: rgb(145, 105, 255);
+
+/* ==========================  
+  타이포그래피
+==========================  */
+$font-xs: 11px;
+$font-sm: 12px;
+$font-base: 14px;
+$font-md: 15px;
+$font-lg: 16px;
+$font-xl: 18px;
+$font-2xl: 20px;
+$font-headline: 48px;
+
+/* ==========================  
+  간격
+==========================  */
+$space-xs: 8px;
+$space-sm: 12px;
+$space-md: 16px;
+$space-lg: 20px;
+$space-xl: 24px;
+$space-2xl: 32px;
+$space-3xl: 48px;
+$space-4xl: 64px;
+$space-5xl: 80px;
+
+/* ==========================  
+  그리드간격
+==========================  */
+$grid-gap-sm: 16px;
+$grid-gap-md: 24px;
+$grid-gap-lg: 48px;
+$grid-gap-xl: 80px;
+
+/* ==========================  
+  반응형 브레이크포인트
+==========================  */
+$bp-mobile: 400px;
+$bp-tablet: 768px;
+$bp-desktop: 1024px;

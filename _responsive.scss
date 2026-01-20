@@ -1,0 +1,13 @@
+/* 반응형 1024px */
+@include respond(desktop){
+  /* visual */
+  .visual{
+    .container{
+      @include grid-container(1fr 1fr, $grid-gap-sm);
+    }
+  }
+}
+/* 반응형 768px */
+@include respond(tablet){}
+/* 반응형 400px */
+@include respond(mobile){}

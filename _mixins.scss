@@ -1,0 +1,76 @@
+/* 재사용 가능 스타일 패턴 */
+
+// 가운데 정렬
+@mixin grid-center{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+// 부모 그리드 설정
+// @include grid-container(repeat(4,1fr), 24px)
+@mixin grid-container($columns, $gap){
+  display: grid;
+  grid-template-columns: $columns;
+  gap: $gap;
+}
+
+// 반응형
+@mixin respond($breakpoint){
+  @if $breakpoint == mobile{
+    @media (max-width:$bp-mobile) {
+      @content;
+    }
+  }
+  @else if $breakpoint == tablet{
+    @media (max-width:$bp-tablet) {
+      @content;
+    }
+  }
+  @else if $breakpoint == desktop{
+    @media (max-width:$bp-desktop) {
+      @content;
+    }
+  }
+}
+
+// 트랜지션
+// @mixin transition(대상, 지속시간){}
+@mixin transition($properties:all, $duration:0.3s){
+  transition: $properties $duration;
+}
+
+// 호버
+@mixin hover-border{
+  @include transition;
+  &:hover{
+    border-color: $color-point;
+  }
+}
+
+@mixin section-title {
+  font-size: $font-2xl;
+  font-weight: 600;
+  margin-bottom: $space-xs;
+}
+
+// 보더
+@mixin border($side){
+  @if $side == all {
+    border: 2px solid $color-border;
+  }@else if $side == top {
+    border-top: 2px solid rgb(255, 131, 152);
+  }@else if $side == bottom {
+    border-bottom: 2px solid rgba(182, 182, 224, 0.671);
+  }@else if $side == left {
+    border-left: 2px solid rgb(84, 221, 84);
+  }@else if $side == right {
+    border-right: 2px solid rgba(182, 182, 224, 0.671);
+  }
+}
+
+@mixin card-base{
+  @include border(all);
+  background: $color-white;
+  @include hover-border;
+}

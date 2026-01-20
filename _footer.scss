@@ -1,0 +1,74 @@
+footer{
+  background: $color-black;
+  color: $color-white;
+  padding: $space-4xl 0 $space-xl;
+  .footer-content{
+    @include grid-container(2fr repeat(3, 1fr), $grid-gap-lg);
+    @include border(bottom);
+    padding: $space-xl;
+    .footer-section{
+      h3{
+        font-size: $font-base;
+        font-weight: 500;
+        margin-bottom: $space-lg;
+      }
+      p{
+        font-weight: 200;
+        font-size: $font-sm;
+        color: $color-gray-light;
+      }
+      ul{
+        @include grid-container(1fr, $grid-gap-sm);
+        li{
+          a{
+            color: $color-gray-light;
+            font-size: $font-sm;
+            font-weight: 300;
+            &:hover{
+              color: $color-white;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-bottom{
+    padding-top: $grid-gap-md;
+    @include grid-container(1fr auto, $grid-gap-md);
+    justify-content: space-between;
+    align-items: center;
+    p{
+      font-size: $font-sm;
+      color: $color-bg-light;
+      font-weight: 300;
+    }
+    .social-link{
+      @include grid-container(repeat(4, auto), $grid-gap-sm);
+      a{
+        display: block;
+        color: $color-gray-light;
+        &:hover{
+          color: blueviolet;
+        }
+      }
+    }
+  }
+}
+
+
+//반응형 
+/* 테블릿 */
+@include respond(tablet){
+  footer{
+    .footer-content{
+      @include grid-container(1fr, $space-xs);
+    }
+    .footer-bottom{
+    @include grid-container(1fr, $space-xs);
+    text-align: center;
+      .social-link{
+        justify-content: center;
+      }
+    }
+  }
+}

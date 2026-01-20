@@ -1,0 +1,71 @@
+header{
+  background-color: $color-bg-light;
+  @include border(bottom);
+  .container{
+    @include grid-container(auto 1fr auto, $grid-gap-lg);
+    align-items: center;
+    padding-top: $space-lg;
+    padding-bottom: $space-lg;
+  }
+}
+.logo{
+  font-size: $font-2xl;
+  font-weight: 800;
+  color: $color-black;
+  @include transition(all, 0.3s);
+  cursor: pointer;
+  &:hover{
+    color: $color-point;
+  }
+}
+//네비게이션
+nav{
+  ul{
+    @include grid-container(repeat(3, auto), $space-2xl);
+    justify-content: start;
+    li{
+      a{
+        color: $color-gray;
+        &:hover{
+          color: $color-black;
+        }
+      }
+    }
+  }
+}
+//아이콘
+.header-actions{
+  @include grid-container(repeat(2, auto), $space-lg);
+  .icon-btn{
+    width: 40px;
+    height: 40px;
+    background: $color-white;
+    @include grid-center;
+    @include border(all);
+    cursor: pointer;
+  }
+}
+
+//반응형
+/* 테블릿 */ 
+@include respond(tablet){
+  header .container{
+    @include grid-container(1fr, $grid-gap-sm);
+    /* grid-template-columns: auto 1fr; */
+    width: 100%;
+  }
+  .headere-actions{
+    justify-content: start;
+  }
+}
+/* 모바일 */
+@include respond(mobile){
+  header .container{
+    @include grid-container(auto 1fr auto, $grid-gap-sm);
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .headere-actions{
+    justify-content: start;
+  }
+}

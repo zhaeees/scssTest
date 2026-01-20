@@ -1,0 +1,316 @@
+=================================
+SVG 이미지 목록
+=================================
+
+
+=================================
+HEADER ICONS
+=================================
+
+---------------------------------
+icon-search
+---------------------------------
+위치: 헤더 우측 검색 버튼
+크기: 18x18
+코드:
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+  <circle cx="11" cy="11" r="8"></circle>
+  <path d="m21 21-4.35-4.35"></path>
+</svg>
+
+---------------------------------
+icon-cart
+---------------------------------
+위치: 헤더 우측 장바구니 버튼
+크기: 18x18
+코드:
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+  <circle cx="9" cy="21" r="1"></circle>
+  <circle cx="20" cy="21" r="1"></circle>
+  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+</svg>
+
+
+=================================
+HERO SECTION
+=================================
+
+---------------------------------
+hero-smartphone
+---------------------------------
+위치: 히어로 섹션 우측 이미지
+크기: 200x200
+코드:
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none">
+  <rect x="40" y="20" width="120" height="160" rx="15" stroke="#111" stroke-width="3"/>
+  <rect x="50" y="30" width="100" height="130" fill="#f5f5f5"/>
+  <circle cx="100" cy="170" r="8" fill="#111"/>
+</svg>
+
+
+=================================
+PRODUCT IMAGES
+=================================
+
+---------------------------------
+product-smartphone
+---------------------------------
+위치: product01 (스마트폰 X1)
+크기: 100x100
+코드:
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+  <rect x="20" y="10" width="60" height="80" rx="8" stroke="#111" stroke-width="2"/>
+  <rect x="25" y="15" width="50" height="65" fill="#e0e0e0"/>
+  <circle cx="50" cy="85" r="4" fill="#111"/>
+</svg>
+
+---------------------------------
+product-laptop
+---------------------------------
+위치: product02 (울트라북 Pro 15)
+크기: 100x100
+코드:
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+  <rect x="15" y="30" width="70" height="45" rx="3" stroke="#111" stroke-width="2"/>
+  <rect x="20" y="35" width="60" height="35" fill="#e0e0e0"/>
+  <rect x="35" y="77" width="30" height="3" fill="#111"/>
+</svg>
+
+---------------------------------
+product-headphone
+---------------------------------
+위치: product03 (무선 헤드폰 Elite)
+크기: 100x100
+코드:
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+  <path d="M35 35 Q25 50 35 65" stroke="#111" stroke-width="3" fill="none"/>
+  <path d="M65 35 Q75 50 65 65" stroke="#111" stroke-width="3" fill="none"/>
+  <path d="M35 35 Q50 25 65 35" stroke="#111" stroke-width="3" fill="none"/>
+  <circle cx="35" cy="50" r="15" stroke="#111" stroke-width="2" fill="none"/>
+  <circle cx="65" cy="50" r="15" stroke="#111" stroke-width="2" fill="none"/>
+</svg>
+
+---------------------------------
+product-smartwatch
+---------------------------------
+위치: product04 (스마트워치 S5)
+크기: 100x100
+코드:
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="30" stroke="#111" stroke-width="2"/>
+  <circle cx="50" cy="50" r="22" fill="#e0e0e0"/>
+  <rect x="48" y="15" width="4" height="10" fill="#111"/>
+</svg>
+
+---------------------------------
+product-camera
+---------------------------------
+위치: product05 (미러리스 카메라 A7)
+크기: 100x100
+코드:
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+  <rect x="25" y="30" width="50" height="40" rx="5" stroke="#111" stroke-width="2"/>
+  <rect x="30" y="35" width="40" height="30" fill="#e0e0e0"/>
+  <circle cx="75" cy="50" r="8" stroke="#111" stroke-width="2" fill="none"/>
+  <rect x="43" y="20" width="14" height="8" fill="#111"/>
+</svg>
+
+---------------------------------
+product-monitor
+---------------------------------
+위치: product06 (4K 모니터 27인치)
+크기: 100x100
+코드:
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+  <rect x="20" y="25" width="60" height="45" rx="3" stroke="#111" stroke-width="2"/>
+  <rect x="25" y="30" width="50" height="35" fill="#e0e0e0"/>
+  <rect x="35" y="72" width="30" height="5" fill="#111"/>
+</svg>
+
+---------------------------------
+product-keyboard
+---------------------------------
+위치: product07 (기계식 키보드)
+크기: 100x100
+코드:
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+  <rect x="20" y="35" width="60" height="35" rx="3" stroke="#111" stroke-width="2"/>
+  <rect x="25" y="40" width="8" height="8" rx="1" fill="#e0e0e0"/>
+  <rect x="35" y="40" width="8" height="8" rx="1" fill="#e0e0e0"/>
+  <rect x="45" y="40" width="8" height="8" rx="1" fill="#e0e0e0"/>
+  <rect x="55" y="40" width="8" height="8" rx="1" fill="#e0e0e0"/>
+  <rect x="65" y="40" width="8" height="8" rx="1" fill="#e0e0e0"/>
+</svg>
+
+---------------------------------
+product-mouse
+---------------------------------
+위치: product08 (무선 마우스 MX)
+크기: 100x100
+코드:
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+  <ellipse cx="50" cy="55" rx="20" ry="25" stroke="#111" stroke-width="2" fill="#e0e0e0"/>
+  <rect x="48" y="25" width="4" height="8" fill="#111"/>
+</svg>
+
+
+=================================
+CATEGORY IMAGES
+=================================
+
+---------------------------------
+category-mobile
+---------------------------------
+위치: category01 (모바일)
+크기: 60x60
+코드:
+<svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+  <rect x="20" y="10" width="60" height="80" rx="8" stroke="#111" stroke-width="2"/>
+  <rect x="25" y="15" width="50" height="65" fill="#e0e0e0"/>
+  <circle cx="50" cy="85" r="4" fill="#111"/>
+</svg>
+
+---------------------------------
+category-computer
+---------------------------------
+위치: category02 (컴퓨터)
+크기: 60x60
+코드:
+<svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+  <rect x="15" y="30" width="70" height="45" rx="3" stroke="#111" stroke-width="2"/>
+  <rect x="20" y="35" width="60" height="35" fill="#e0e0e0"/>
+  <rect x="35" y="77" width="30" height="3" fill="#111"/>
+</svg>
+
+---------------------------------
+category-audio
+---------------------------------
+위치: category03 (오디오)
+크기: 60x60
+코드:
+<svg width="60" height="60" viewBox="0 0 100 100" fill="none">
+  <path d="M35 35 Q25 50 35 65" stroke="#111" stroke-width="3" fill="none"/>
+  <path d="M65 35 Q75 50 65 65" stroke="#111" stroke-width="3" fill="none"/>
+  <path d="M35 35 Q50 25 65 35" stroke="#111" stroke-width="3" fill="none"/>
+  <circle cx="35" cy="50" r="15" stroke="#111" stroke-width="2" fill="none"/>
+  <circle cx="65" cy="50" r="15" stroke="#111" stroke-width="2" fill="none"/>
+</svg>
+
+
+=================================
+FEATURE IMAGES
+=================================
+
+---------------------------------
+feature-delivery
+---------------------------------
+위치: feature01 (무료 배송)
+크기: 40x40
+코드:
+<svg width="40" height="40" viewBox="0 0 100 100" fill="none">
+  <rect x="20" y="35" width="50" height="35" rx="3" stroke="#111" stroke-width="2"/>
+  <circle cx="75" cy="30" r="4" fill="#111"/>
+  <path d="M75 34 L75 50 L85 60" stroke="#111" stroke-width="2"/>
+  <path d="M75 50 L65 60" stroke="#111" stroke-width="2"/>
+</svg>
+
+---------------------------------
+feature-security
+---------------------------------
+위치: feature02 (안전한 결제)
+크기: 40x40
+코드:
+<svg width="40" height="40" viewBox="0 0 100 100" fill="none">
+  <rect x="30" y="35" width="40" height="45" rx="5" stroke="#111" stroke-width="2"/>
+  <path d="M40 35 L40 28 Q40 20 48 20 L52 20 Q60 20 60 28 L60 35" stroke="#111" stroke-width="2" fill="none"/>
+  <circle cx="50" cy="55" r="8" stroke="#111" stroke-width="2"/>
+  <rect x="48" y="55" width="4" height="10" fill="#111"/>
+</svg>
+
+---------------------------------
+feature-return
+---------------------------------
+위치: feature03 (30일 반품)
+크기: 40x40
+코드:
+<svg width="40" height="40" viewBox="0 0 100 100" fill="none">
+  <path d="M30 50 L45 65 L70 35" stroke="#111" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M25 50 Q25 25 50 25 Q75 25 75 50" stroke="#111" stroke-width="2" fill="none"/>
+  <path d="M75 50 L70 45 M75 50 L80 45" stroke="#111" stroke-width="2" stroke-linecap="round"/>
+</svg>
+
+---------------------------------
+feature-support
+---------------------------------
+위치: feature04 (24/7 상담)
+크기: 40x40
+코드:
+<svg width="40" height="40" viewBox="0 0 100 100" fill="none">
+  <circle cx="35" cy="45" r="20" stroke="#111" stroke-width="2"/>
+  <circle cx="65" cy="55" r="20" stroke="#111" stroke-width="2"/>
+  <path d="M45 60 Q50 70 55 60" stroke="#111" stroke-width="2" fill="none"/>
+</svg>
+
+
+=================================
+FOOTER SOCIAL ICONS
+=================================
+
+---------------------------------
+social-facebook
+---------------------------------
+위치: 푸터 하단 소셜 링크
+크기: 16x16
+코드:
+<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+</svg>
+
+---------------------------------
+social-twitter
+---------------------------------
+위치: 푸터 하단 소셜 링크
+크기: 16x16
+코드:
+<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg>
+
+---------------------------------
+social-instagram
+---------------------------------
+위치: 푸터 하단 소셜 링크
+크기: 16x16
+코드:
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+</svg>
+
+---------------------------------
+social-youtube
+---------------------------------
+위치: 푸터 하단 소셜 링크
+크기: 16x16
+코드:
+<svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"></path>
+</svg>
+
+
+=================================
+요약
+=================================
+총 SVG 개수: 19개
+- 헤더 아이콘: 2개
+- 히어로 이미지: 1개
+- 제품 이미지: 8개
+- 카테고리 이미지: 3개
+- 특징 아이콘: 4개
+- 소셜 아이콘: 4개
+
+색상 정보:
+- stroke: #111 (검정)
+- fill: #111 (검정), #e0e0e0 (회색), none (투명)
+- currentColor (텍스트 색상 상속)
